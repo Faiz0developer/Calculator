@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calci</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+  <h1>Calculator</h1>
+  <div class="container">
+    <div class="screen">
+      <input type="text" class="input" placeholder="0">
+    </div>
+    <hr>
+    <div class="row row-1">
+      <button class="btn1 btn-1 com com1 button">C</button>
+      <button class="btn1 btn-1 com button com2"><i class="fa-solid fa-delete-left"></i></button>
+      <button class="btn btn-1 com" data-num="%">%</button>
+      <button class="btn btn-1 com">/</button>
+    </div>
+    
+    <div class="row row-2">
+      <button class="btn btn-2">7</button>
+      <button class="btn btn-2">8</button>
+      <button class="btn btn-2">9</button>
+      <button class="btn btn-2 com">*</button>
+    </div>
+    <div class="row row-3">
+      <button class="btn btn-3">4</button>
+      <button class="btn btn-3">5</button>
+      <button class="btn btn-3">6</button>
+      <button class="btn btn-3 com">-</button>
+    </div>
+    <div class="row row-4">
+      <button class="btn btn-4">1</button>
+      <button class="btn btn-4">2</button>
+      <button class="btn btn-4">3</button>
+      <button class="btn btn-4 com">+</button>
+    </div>
+    <div class="row row-5">
+      <button class="btn btn-5" id="btn">00</button>
+      <button class="btn btn-5">0</button>
+      <button class="btn btn-5">.</button>
+      <button class="btn1 btn-5 com-1 button">=</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
