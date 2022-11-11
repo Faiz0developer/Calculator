@@ -3,12 +3,7 @@ let screen = document.querySelector('input');
 buttons.forEach((button) => {
   button.addEventListener('click', (e)=>{
     let value = e.target.innerHTML; 
-    if(e.target == '='){
       screen.value += value
-    }
-    else{
-      screen.value += value;
-    }
   })
 });
 
